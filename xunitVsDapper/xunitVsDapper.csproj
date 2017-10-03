@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.3.0-rc1-build3809" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.0-rc1-build3809" />
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.0-rc1-build3809" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="getDbVersion">
+      <HintPath>..\getDbVersion\bin\Debug\netcoreapp2.0\getDbVersion.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

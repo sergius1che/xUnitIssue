@@ -1,0 +1,10 @@
+/packages
+bin
+obj
+/sources/LogStream.Megafon.Oco.ECP.Web/Logs
+/sources/LogStream.Megafon.Oco.ECP.Web/uploads
+/.vs
+/sources/LogStream.Megafon.Oco.ECP.Web/files
+/sources/LogStream.Megafon.Oco.ECP.Web/Properties/PublishProfiles/*.user
+*.user
+/sources/LogStream.Megafon.Oco.EditorDirectories/Logs
